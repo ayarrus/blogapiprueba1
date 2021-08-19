@@ -12,7 +12,7 @@ La app corre en <http://localhost:8080>
 
 ### Users
 
-| Metodo | URL | Descripcion | Sample Valid Request Body |
+| Metodo | URL | Descripcion | Ejemplo Request |
 | ------ | --- | ----------- | ------------------------- |
 | GET    | /api/users/me | Iniciar sesión en el perfil de usuario | |
 | GET    | /api/users/{username}/profile | Obtener perfil de usuario por nombre de usuario | |
@@ -22,7 +22,7 @@ La app corre en <http://localhost:8080>
 
 ### Posts
 
-| Metodo | URL | Descripcion | Sample Valid Request Body |
+| Metodo | URL | Descripcion | Ejemplo Request |
 | ------ | --- | ----------- | ------------------------- |
 | GET    | /api/posts | Obtener todas las publicaciones  | |
 | GET    | /api/posts/{id} | Obtener publicación por id  | |
@@ -32,7 +32,7 @@ La app corre en <http://localhost:8080>
 
 ### Comments
 
-| Metodo | URL | Descripcion | Sample Valid Request Body |
+| Metodo | URL | Descripcion | Ejemplo Request |
 | ------ | --- | ----------- | ------------------------- |
 | GET    | /api/posts/{postId}/comments | Obtenga todos los comentarios que pertenecen a la publicación con id = postId  | |
 | GET    | /api/posts/{postId}/comments/{id} | Obtener comentario por id si pertenece a la publicación con id = postId  | |
